@@ -1,0 +1,16 @@
+material vrc/grass
+{
+  receive_shadows on
+	technique
+	{
+		pass
+		{
+                        ambient 0.0 0.0 0.0 1.0
+
+                        texture_unit
+			{
+                                texture ground.jpg
+			}
+		}
+	}
+}
